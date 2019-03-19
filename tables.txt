@@ -1,0 +1,2 @@
+create table users(username varchar(30) primary key not null,password varchar(32) not null,date date not null);
+insert into users(username,password,date) values ("luca",md5("capelli"),2000-05-26);
